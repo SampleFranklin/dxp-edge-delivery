@@ -4,7 +4,7 @@ import { getMetadata } from '../../scripts/lib-franklin.js';
 export default function decorate(block) {
   const isDocumentationLanding = window.location.pathname === '/docs/';
   const list = createTag('ul');
-  const home = createTag('li', {}, '<a href="https://publish-p122520-e1198430.adobeaemcloud.com/us/en/brezza.html" class="breadcrumb-link-underline-effect">Home</a>');
+  const home = createTag('li', {}, '<a href="https://publish-p71852-e1137339.adobeaemcloud.com/auto/us/en/home.html" class="breadcrumb-link-underline-effect">Home</a>');
 
   list.append(home);
 

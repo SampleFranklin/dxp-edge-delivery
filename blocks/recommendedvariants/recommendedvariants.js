@@ -112,14 +112,14 @@ export default async function decorate(block) {
     const buttonTestDrive = document.createElement("button");
     buttonTestDrive.classList.add("test-drive-btn");
     const testDriveLink = document.createElement("a");
-    testDriveLink.href = "https://www.marutisuzuki.com/";
+    testDriveLink.href = "https://publish-p71852-e1137339.adobeaemcloud.com/auto/us/en/book-a-test-drive.html";
     testDriveLink.innerText = "Book a Test Drive";
     buttonTestDrive.appendChild(testDriveLink); // To be added
 
     const buttonSpecification = document.createElement("button");
     buttonSpecification.classList.add("specification-btn");
     const specificationLink = document.createElement("a");
-    specificationLink.href = "https://www.marutisuzuki.com/";
+    specificationLink.href = "https://publish-p71852-e1137339.adobeaemcloud.com/auto/us/en/feature-specifications.html";
     specificationLink.innerText = "VIEW FULL SPECIFICATIONS";
     buttonSpecification.appendChild(specificationLink); // To be added
 
