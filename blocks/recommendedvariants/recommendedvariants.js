@@ -11,7 +11,7 @@ export default async function decorate(block) {
   const variantsList = jsonData.data.carVariantsList.items;
 
   const variantDetailsDiv = document.createElement("div");
-  variantDetailsDiv.classList.add("variant-details", "swiper-wrapper");
+  variantDetailsDiv.classList.add("variant-details", "swiper-wrapper","test-class-for-fun");
   const previousButton = document.createElement("div");
   const nextButton = document.createElement("div");
   previousButton.classList.add("swiper-button-prev", "recommendedvariants-prev");
